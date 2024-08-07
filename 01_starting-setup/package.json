@@ -1,0 +1,16 @@
+{
+  "name": "01_starting-setup",
+  "version": "1.0.0",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs"
+  },
+  "keywords": [],
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "description": "A nodejs app for docker learning purposes...",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
