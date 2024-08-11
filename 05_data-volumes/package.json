@@ -1,0 +1,18 @@
+{
+  "name": "05_data-volumes",
+  "version": "1.0.0",
+  "description": "Data volume of Docker playground",
+  "type": "module",
+  "main": "main.js",
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

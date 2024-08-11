@@ -1,0 +1,16 @@
+{
+  "name": "01_nodejs-app-first-dockerfile",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "description": "A nodejs app for first Dockerfile",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

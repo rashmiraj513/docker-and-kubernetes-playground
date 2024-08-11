@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "Rashmi Raj",
   "license": "ISC",
-  "description": "A nodejs app for docker learning purposes...",
+  "description": "A nodejs app for introduction with Docker",
   "dependencies": {
     "express": "^4.19.2"
   }
