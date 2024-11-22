@@ -1,6 +1,6 @@
 # Notes of Section 01
 
-- **Images:** Read-only templates used to create containers. They contain the application code, libraries, dependencies, and any other files needed to run the application. Images are built from a set of instructions in a Dockerfile.
+- **Images:** Images are read-only templates, which can be used to create containers. They contain the application code, libraries, dependencies, and any other files needed to run the application. Images are built from a set of instructions in a Dockerfile.
 - **Containers:** Running instances of Docker images. They are lightweight, isolated environments that execute applications. Containers include the application and its dependencies, ensuring consistency across different environments.
 
 > **Note:** In essence,
