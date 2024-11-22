@@ -12,6 +12,12 @@
 - [Docker compose cheat sheet](https://drive.google.com/file/d/1KP-d3jg0NsMjIe91PdMtvkmNDuhDpQxq/view?usp=sharing)
 - [Utility containers slides](https://drive.google.com/file/d/1Lir8WlGoe95emITXtEYd8Swpro5oVFa1/view?usp=sharing)
 - [Laravel slides](https://drive.google.com/file/d/151WytDIjjxeH5FFI6J-zZxV40sIrosIf/view?usp=sharing)
+- [Getting started with AWS](https://academind.com/tutorials/aws-the-basics)
+- [A closer look at EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
+- [Install Docker on Amazon Linux](https://stackoverflow.com/questions/53918841/how-to-install-docker-on-amazon-linux2/61708497#61708497)
+- [Installing Docker on Linux in General](https://docs.docker.com/engine/install/)
+- [Deploying Docker containers slides](https://drive.google.com/file/d/1AC1NyezyvBgmxiybbNHc52dDu39wF1cS/view?usp=sharing)
+- [Mid summary slides](https://drive.google.com/file/d/1vIM7dabpPG5aGzC99DhDPzRHFHVXVOk1/view?usp=sharing)
 
 You can use the website [Play with Docker](https://labs.play-with-docker.com/) to learn the basis of the Docker.
 
