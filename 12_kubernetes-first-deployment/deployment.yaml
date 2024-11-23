@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: declarative-app-deployment
+  labels:
+    group: example
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: declarative-app
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: declarative-app
+        tier: backend
+    spec:
+      containers:
+        - name: second-node
+          image: rashmiraj513/kubernetes-first-app:0.1
+          imagePullPolicy: Always
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            periodSeconds: 10
+            initialDelaySeconds: 5
+          resources:
+            limits:
+              memory: '512Mi'
+              cpu: '500m'
+            requests:
+              memory: '256Mi'
+              cpu: '250m'
+      restartPolicy: Always
